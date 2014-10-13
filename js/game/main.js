@@ -520,6 +520,8 @@ require(['alien/alien'], function (alien) {
     window.alien = alien;
     window.player = game.scenes.scene_0.entities.player;
 
+    game.run();
+
 });
 
 require.config({
@@ -529,5 +531,3 @@ require.config({
     }
 });
 
-
-game.run();
